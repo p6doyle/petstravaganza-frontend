@@ -1,8 +1,9 @@
 // Variables
-const SESSION_ANIMALS = 'http://localhost:3000/sessions'
-const SESSION_TASKS = 'http://localhost:3000/sessions/update'
-const LEADERBOARD_URL = 'http://localhost:3000/sessions/leaderboard'
-const LEADERBOARD_UPDATE = 'http://localhost:3000/sessions/new_high_score'
+
+const SESSION_ANIMALS = 'https://petstravaganza-backend.herokuapp.com/sessions'
+const SESSION_TASKS = 'https://petstravaganza-backend.herokuapp.com/sessions/update'
+const LEADERBOARD_URL = 'https://petstravaganza-backend.herokuapp.com/sessions/leaderboard'
+const LEADERBOARD_UPDATE = 'https://petstravaganza-backend.herokuapp.com/sessions/new_high_score'
 
 const HOME_SCREEN = document.createElement('div');
 HOME_SCREEN.id = 'home-screen'
